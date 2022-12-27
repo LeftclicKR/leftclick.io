@@ -19093,12 +19093,16 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Mouse.prototype.cnds.OnAnyClick,
+	cr.plugins_.Touch.prototype.cnds.OnTapGesture,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
+	cr.plugins_.Sprite.prototype.cnds.IsBoolInstanceVarSet,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.SubVar,
+	cr.plugins_.Sprite.prototype.acts.SetBoolInstanceVar,
 	cr.system_object.prototype.cnds.Else,
 	cr.plugins_.Text.prototype.acts.SetInstanceVar,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Text.prototype.acts.SubInstanceVar,
-	cr.plugins_.Text.prototype.cnds.CompareInstanceVar
+	cr.plugins_.Text.prototype.cnds.CompareInstanceVar,
+	cr.plugins_.Touch.prototype.cnds.IsInTouch
 ];};
