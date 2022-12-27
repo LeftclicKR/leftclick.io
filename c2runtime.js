@@ -19075,10 +19075,10 @@ cr.behaviors.Timer = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
-	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Text,
+	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
 	cr.behaviors.Timer,
 	cr.behaviors.Flash,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
