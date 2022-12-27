@@ -19093,7 +19093,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Mouse.prototype.cnds.OnAnyClick,
-	cr.plugins_.Touch.prototype.cnds.OnTouchStart,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.SubVar,
